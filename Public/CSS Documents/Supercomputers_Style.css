@@ -1,0 +1,195 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+#headwrapper {
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;/* set it to anything */
+    height: auto;
+    } 
+header {
+    width: 100%;
+    margin: auto;
+} 
+#headwrapper ul {
+    padding: 0px;
+    display: inline-block;
+}
+#headwrapper ul li {
+    display: inline-block;
+    margin: 0px;
+}
+#headwrapper ul li:last-child {
+    display: inline-block;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black
+  }
+  
+  li {
+    float: left;
+    margin: 0;
+    position: relative;
+    left: 5px;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: orange;
+  }
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 1223px;
+    padding: 20px;
+    margin-top: auto;
+    position: relative;
+    bottom: -800px;
+    background-color:#00c9fd;
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black
+  }
+ p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:15px
+   }
+h1,h2,h3,h4,h5,h6 { 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   } 
+  .blue
+   { 
+       color:#00c9fd; 
+   }  
+  .black
+  {
+      color:black
+  }
+.focus {
+color: #00c9fd;
+}
+#bigimage {
+background-image: url('Titan.jpg');
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+  bottom: 140px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  background-color: white;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 270px;
+  height: 150px;
+}
+hr {
+background-color: lightgray;
+}
+
+  @media screen and (max-width: 900px) {
+    #wrapper { 
+     width: 100%; 
+    }
+    
+    #bigimage { 
+     height: auto;
+     width: 50%;
+   }
+    nav a {
+    width: 30%;
+    }
+  }
+
+   
+   @media screen and (max-width: 550px) {
+    #wrapper { 
+     width: 100%; 
+     min-width: 320px;
+   }
+    nav a {
+    width: 100%;
+    display: block;
+    text-align: left;
+   left: 20px;
+  }
+   #bigimage img {
+   float: none;
+   width: calc(100% - 40px);
+   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: white;
+    color: orange;
+  }
+  #image2 {
+  position: relative;
+  right: 450px;
+  }
+  .navbar-border {
+  border: 1px solid lightgrey;
+  max-width: 100%;
+  margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 1080px) {
+ #bigimage {
+ height: 200px;
+ }
+ .text-block {
+ display: none;
+ }
+ ul {
+ width: 100%;
+ text-align: left;
+ padding-left: 20px;
+ padding-right: 20px;
+ }
+ h1 {
+ padding-left: 0px;
+ }
+}
+
+
+    
